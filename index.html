@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/d3ad36fa91.js"
+      crossorigin="anonymous"
+    ></script>
+    <div id="pghead" class="wrapper1">
+      <div class="box snkr"><a href='#'>Sneakers</a></div>
+      <div class="box coll"><a href="#">Collections</a></div>
+      <div class="box men"><a href="#">Men</a></div>
+      <div class="box women"><a href="#">Women</a></div>
+      <div class="box abt"><a href="#">About</a></div>
+      <div class="box cts"><a href="#">Contact Us</a></div>
+      <div class="box empty"></div>
+      <div class="cart">
+        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+      </div>
+      <div>
+        <a href="#"
+          ><img class="box prof" src="images/default-profile-picture.jpg"
+        /></a>
+      </div>
+    </div>
+    <hr>
+  </head>
+  <body>
+    <div class="document">
+      <div class="imageholder">
+        <div class="displayed-image">
+          <img class="image" src="images/ryan-plomp-76w_eDO1u1E-unsplash.jpg" />
+        </div>
+        <div class="thumb-bar">
+          <img
+            class="img1 img-thumb"
+            id="img1"
+            src="images/ryan-plomp-76w_eDO1u1E-unsplash.jpg"
+          />
+          <img
+            class="img2 img-thumb"
+            id="img2"
+            src="images/danilo-capece-NoVnXXmDNi0-unsplash.jpg"
+          />
+          <img
+            class="img3 img-thumb"
+            id="img3"
+            src="images/pat-kwon-EJTjetc8tPs-unsplash.jpg"
+          />
+        </div>
+      </div>
+      <div class="textholder">
+        <div class="smalltxt"><p>SNEAKER COMPANY</p></div>
+        <div class="title"><p>Fall Limited Edition Sneakers</p></div>
+        <div class="desc">
+          <p>
+            These low profile sneakers are your perfect casual wear companion.<br>
+            Featuring a durable rubber outer sole, they'll withstand everything
+            the weather can offer.
+          </p>
+        </div>
+        <div class="holder">
+          <div class="price"><p>$150</p></div>
+          <div class="addbutton">
+            <button class="subtract" id="subtractbutton">-</button>
+            <div class="indicator"><p>0</p></div>
+            <button class="add" id="addbutton">+</button>
+          </div>
+        </div>
+        <div>
+          <button class="addtocart" id="addtocart"><a href='#'>Add to Cart</a></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="scripts.js" defer></script>
